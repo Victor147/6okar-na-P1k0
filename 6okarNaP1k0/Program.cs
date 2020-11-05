@@ -26,7 +26,7 @@ namespace _6okarNaP1k0
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
 
-            string token = "NzczODM1MzQyMjg4NjUwMjQw.X6PAUg.T_WOBrzEzJXXOHwgUsElE4n5O2A";
+            string token = "{TOKEN}"; // Contanct the founder of the project to obtain the token.
             _client.Log += _client_Log;
             await RegisterCommandsAsync();
 
